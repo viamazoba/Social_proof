@@ -14,7 +14,7 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 
-./practica_HTML.zip
-./README-template.md
+*.zip
+README-template.md
 ./style-guide.md
-./design
+design/
