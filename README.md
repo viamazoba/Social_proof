@@ -10,4 +10,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - Flexbox
 - Mobile-first workflow
 
+## Mobile-first conditions
+Two layouts were proposed, one for 375px and one for 1440px.
+
 Thanks to Show my work!
