@@ -1,0 +1,166 @@
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+    --Font-size: 15px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+
+    background-image: url("./images/bg-pattern-top-mobile.svg");
+    background-repeat: no-repeat;
+}
+
+.general-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title{
+    font-size: 3rem;
+    color: var(--Very-Dark-Magenta);
+    line-height: 3rem;
+    margin-bottom: 3.5rem;
+
+}
+
+.container-introduction{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.introduction{
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 1.33rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+
+.second-container{
+    margin-bottom: 5rem;
+}
+
+.calification{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Light-Grayish-Magenta);
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7rem;
+    border-radius: 1rem;
+    
+}
+
+.all-stars{
+    margin-bottom: 0.7rem;
+}
+
+.star{
+    padding-right: 0.5rem;
+    width: 2rem;
+}
+
+.text-star{
+    font-weight: bold;
+    color: var(--Very-Dark-Magenta);
+    font-size: 1.2rem;
+}
+
+.person-comment{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 1rem;
+    height: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+.identification{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.photo{
+    margin-right: 2rem;
+}
+
+.image{
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--Light-Grayish-Magenta);
+    margin-top: 0.5rem;
+}
+
+.buyer{
+ font-size: 1.3rem;
+ margin-top: 0.5rem;
+ color: var(--Soft-Pink);
+ font-weight: 400;
+}
+
+.comment{
+    color: var(--Light-Grayish-Magenta);
+    font-size: 1.22rem;
+    line-height: 2rem;
+    margin-left: 3.5rem;
+    margin-right: 3.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
