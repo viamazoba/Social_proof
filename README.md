@@ -8,9 +8,11 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Mobile-first 
 
 ## Mobile-first conditions
 Two layouts were proposed, one for 375px and one for 1440px.
+
+### Here you can see my layout: https://viamazoba.github.io/Social_proof/
 
 Thanks to Show my work!
